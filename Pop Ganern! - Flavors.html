@@ -51,8 +51,8 @@ line-height: 20px;
 <a href=""> <a href="Pop Ganern! - Flavors.html"> <img src="flavor.png" align="left"> </a> </li>
 
 <a href="Pop Ganern!.html"> <img src="pfp.png" width="60px" height="60px"> </a>
-<button onclick="music(this)"> <img src="musics.png" align="right"> </a> </li> </button>
 <a href=""> <a href="Pop Ganern! - Members.html"> <img src="member.png" align="right"> </a> </li>
+<button onclick="playMusic(this)"> <img src="musics.png" align="right"> </a> </li> </button>
 </ul>
 </nav>
 
@@ -278,7 +278,7 @@ window.onload = function() {
 
 var musicSound = new Audio("magnetic.mp3");
 
-function music(this) {
+function playMusic(this) {
                musicSound.play();
                 }
 
